@@ -1,0 +1,153 @@
+*{
+	margin:auto;
+	padding:0px;
+}
+
+.fondo{
+	background-color: white;
+}
+.fondo2{
+	background-color: white;
+}
+
+.fondo3{
+	background-color: #A4A4A4;
+}
+
+.fondo4{
+	background-color: white;
+	opacity: 10px;
+}
+.grid_3{
+	font-size: 34px;
+
+}
+
+.grid_6{
+	font-size: 6px;
+
+}
+
+
+#menu{
+    background-color: black;
+}
+
+#menu ul{
+	list-style: none;
+	margin: auto;
+	padding: 0;
+}
+
+#menu ul li{
+	display: inline-block;
+}
+
+#menu ul li a{
+	color: white;
+	display: block;
+	text-decoration: none;
+	font-size: 20px;
+	padding: 10px 10px 10px 10px;
+}
+
+#menu ul li a:hover{
+	background-color:#a10b00;
+	color: white;
+
+}
+
+#buscador{
+	background-color: #edeceb;
+	float: right;
+	margin-top: 10px;
+	margin-right: 10px;
+}
+
+#subtitulo{
+	font-size: 15px;
+	padding: auto;
+	margin-left: 15px;
+	margin-top: 15px;
+	font-weight: bold;
+	font-family: Arial;
+	color: black;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+	margin-left: 15px;
+	font-weight: bold;
+	font-family: Arial;
+	color: white;
+
+}
+
+.banner{
+	width: 700px;
+	height: 400px;
+	margin: auto;
+	margin-left: 10px;
+
+	background-size: 100% 100%;
+	animation: banner 10s infinite;
+	animation-direction: alternate;
+}
+
+.videojuegos{
+	text-align: center;
+	color: black;
+	font-weight: bold;
+}
+.grid_2{
+	margin-top: 15px;
+	padding: 1px 1px 1px 1px
+}
+ 
+ .message{
+ 	margin-top: 20px;
+ 	width: 100%;
+ 	padding:  10px 15px;
+ 	font size: 12px;
+ 	border-radius: 4px;
+ 	background-color: gray(0, 0%, 199%, 0.3);
+ 	margin:20px;
+ 	text-align: left;
+ 	margin-right: 20px;
+ }
+
+@keyframes banner{
+
+	0%, 30%{
+		background-image: url(https://i.blogs.es/17900b/gta_v_00-1/450_1000.jpg);
+		opacity: 1;
+	}
+
+	31%, 34%{
+		opacity: 0.1;
+	}
+
+	35%, 65%{
+		background-image: url(https://i.pinimg.com/originals/7c/50/e5/7c50e536d009e0d9abfc8746ff37294b.png);
+		opacity: 1;
+	}
+
+	36%, 69%{
+		opacity: 0.1;
+	}
+
+	70%, 100%{
+		background-image: url(https://cdn02.nintendo-europe.com/media/images/10_share_images/games_15/nintendo_switch_4/H2x1_NSwitch_Minecraft_image1600w.jpg);
+		opacity: 1;
+	}
+
+}
+
+
+
+
+
+
+
